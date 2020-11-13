@@ -83,7 +83,7 @@ class PopUp extends DataObject
 
             $fields->replaceField(
                 'ContentLinkID',
-                LinkField::create('ContentLink')
+                LinkField::create('ContentLinkID', 'Content Link')
             );
 
             $fields->dataFieldByName('Content')
@@ -103,7 +103,7 @@ class PopUp extends DataObject
                     $fields->dataFieldByName('StartTime'),
                     $fields->dataFieldByName('EndTime'),
                     $fields->dataFieldByName('Image'),
-                    $fields->dataFieldByName('ContentLink'),
+                    $fields->dataFieldByName('ContentLinkID'),
                 ],
                 'Content'
             );
