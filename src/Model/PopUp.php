@@ -78,7 +78,7 @@ class PopUp extends DataObject
 
             $fields->dataFieldByName('Image')
                 ->setAllowedFileCategories('image')
-                ->setFolderName('Uplaods/Notifications/PopUp')
+                ->setFolderName('Uploads/Notifications/PopUp')
                 ->setIsMultiUpload(false);
 
             $fields->replaceField(
