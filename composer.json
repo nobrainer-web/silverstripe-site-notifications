@@ -15,7 +15,6 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "sheadawson/silverstripe-linkable": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
